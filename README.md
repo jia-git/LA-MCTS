@@ -36,4 +36,4 @@ An example can be found at [example_opt.py](./example/example_opt.py).
 Detailed docs can found at [here](https://facebookresearch.github.io/LA-MCTS/).
 
 ## License
-LA-MCTS is under [CC-BY-NC 4.0 license](./LICENSE).
+LA-MCTS is under [Apache License 2.0](./LICENSE).
