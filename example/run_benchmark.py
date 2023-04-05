@@ -235,7 +235,7 @@ if __name__ == "__main__":
     parser.add_argument('--cp', '-e', type=float, help='cp for mcts', default=0.1)
     parser.add_argument('--sampler', '-m', help='sampler for mcts or optimizier for nevergrad',
                         default=SamplerEnum.RANDOM_SAMPLER)
-    parser.add_argument('--classifier', '-l', help='classifier for mmcts', default=ClassifierEnum.KMEAN_SVM_CLASSIFIER)
+    parser.add_argument('--classifier', '-l', help='classifier for mcts', default=ClassifierEnum.KMEAN_SVM_CLASSIFIER)
     parser.add_argument('--input_offset', '-o', type=float, help='random input offset amount', default=0.0)
     parser.add_argument('--runs', '-r', type=int, help='number of runs', default=1)
     parser.add_argument('--picks', '-g', type=int, help='number of picks', default=10)

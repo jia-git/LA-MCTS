@@ -72,7 +72,7 @@ if __name__ == "__main__":
         exit(1)
 
     algs = (
-    "random", "mcts-random", "cmaes", "mcts-cmaes", "nevergrad", "mcts-nevergrad", "bo", "mcts-bo", "mcts-turbo")
+        "random", "mcts-random", "cmaes", "mcts-cmaes", "nevergrad", "mcts-nevergrad", "bo", "mcts-bo", "mcts-turbo")
 
     min_tc = float('inf')
     all_stats = []
